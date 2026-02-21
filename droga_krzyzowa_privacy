@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Polityka Prywatności - Droga Krzyżowa</title>
+    <style> 
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2em; background-color: #f9f9f9; }
+        h2 { color: #4A148C; border-bottom: 2px solid #4A148C; padding-bottom: 10px; }
+        h3 { color: #6A1B9A; margin-top: 1.5em; }
+        p, li { font-size: 16px; }
+        .highlight { font-weight: bold; color: #4A148C; }
+        ul { padding-left: 20px; }
+        .footer { margin-top: 3em; font-size: 0.9em; color: #666; text-align: center; }
+    </style>
+</head>
+<body>
+    <h2>Polityka Prywatności aplikacji "Droga Krzyżowa"</h2>
+    <p>
+        Niniejsza polityka prywatności dotyczy aplikacji mobilnej <span class="highlight">Droga Krzyżowa</span> (zwanej dalej "Aplikacją"), stworzonej przez <span class="highlight">Mivs</span> (zwanego dalej "Usługodawcą") jako usługa typu Freemium. Aplikacja oferuje bezpłatny dostęp do treści z reklamami oraz opcjonalną subskrypcję Premium.
+    </p>
+
+    <h3>1. Gromadzenie i Wykorzystywanie Danych</h3>
+    <p>
+        Aplikacja została zaprojektowana z myślą o prywatności. <span class="highlight">Nie wymaga ona zakładania konta, logowania ani podawania jakichkolwiek danych osobowych</span>. Usługodawca nie gromadzi na własnych serwerach informacji takich jak imię, nazwisko czy adres e-mail użytkownika.
+    </p>
+    <p>
+        Aplikacja korzysta z usług podmiotów trzecich, które mogą gromadzić dane w celu identyfikacji urządzenia lub analizy błędów:
+    </p>
+    <ul>
+        <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a> (Podstawowe funkcje systemowe)</li>
+        <li><a href="https://support.google.com/admob/answer/6128543?hl=pl" target="_blank">AdMob</a> (Wyświetlanie reklam w wersji darmowej)</li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Analytics</a> (Analiza statystyk użytkowania aplikacji)</li>
+    </ul>
+
+    <h3>2. Uprawnienia i Przechowywanie Danych</h3>
+    <p>Aplikacja korzysta z następujących uprawnień systemowych:</p>
+    <ul>
+        <li><span class="highlight">INTERNET:</span> Niezbędny do weryfikacji subskrypcji, wyświetlania reklam oraz przesyłania anonimowych statystyk.</li>
+        <li><span class="highlight">BILLING (Płatności):</span> Wymagane do obsługi subskrypcji Premium za pośrednictwem Sklepu Google Play.</li>
+        <li><span class="highlight">POST_NOTIFICATIONS:</span> Opcjonalne powiadomienia (użytkownik musi wyrazić na nie zgodę).</li>
+    </ul>
+    <p>
+        Informacja o statusie Twojej subskrypcji jest przechowywana <span class="highlight">lokalnie na Twoim urządzeniu</span> w bezpiecznej bazie danych (Room), co pozwala na korzystanie z funkcji Premium również w trybie offline.
+    </p>
+
+    <h3>3. Subskrypcje i Okres Próbny (Trial)</h3>
+    <p>
+        Aplikacja oferuje plany subskrypcyjne (miesięczny i roczny). Wybrany plan roczny może zawierać <span class="highlight">7-dniowy bezpłatny okres próbny</span>. 
+    </p>
+    <ul>
+        <li>Wszystkie transakcje są przetwarzane wyłącznie przez Sklep Google Play.</li>
+        <li>Usługodawca nigdy nie widzi i nie przechowuje danych Twojej karty płatniczej.</li>
+        <li>Subskrypcją możesz zarządzać lub ją anulować w dowolnym momencie w ustawieniach konta Google Play.</li>
+    </ul>
+
+    <h3>4. Bezpieczeństwo</h3>
+    <p>
+        Cenimy Twoje zaufanie. Aplikacja nie przesyła Twoich modlitw ani notatek na zewnętrzne serwery. Pamiętaj jednak, że żadna metoda transmisji elektronicznej nie jest w 100% bezpieczna, dlatego zalecamy dbanie o bezpieczeństwo samego urządzenia mobilnego.
+    </p>
+
+    <h3>5. Kontakt</h3>
+    <p>
+        W razie jakichkolwiek pytań dotyczących niniejszej polityki, prosimy o kontakt pod adresem e-mail dewelopera wskazanym w Sklepie Google Play.
+    </p>
+
+    <div class="footer">
+        Ostatnia aktualizacja: 21 lutego 2026 r.
+    </div>
+</body>
+</html>
