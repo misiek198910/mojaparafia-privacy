@@ -54,71 +54,78 @@
 </head>
 <body>
 
-    <h1>Polityka Prywatności aplikacji mobilnej „Moja Parafia”</h1>
-    <p class="date">Data aktualizacji: 7 lutego 2026 r.</p>
+    <h1>Polityka Prywatności aplikacji mobilnej „Moja Parafia"</h1>
+    <p class="date">Ostatnia aktualizacja: 27 sierpnia 2026</p>
 
     <h2>1. Postanowienia ogólne</h2>
-    <p>Administratorem danych osobowych jest <strong>Michał Schmude</strong>, prowadzący działalność pod adresem <a href="https://mivs.dev">mivs.dev</a>, e-mail: <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a> (dalej jako: „Administrator”). Administrator dokłada wszelkich starań, aby chronić prywatność użytkowników aplikacji „Moja Parafia”.</p>
+    <p><strong>Moja Parafia</strong> („aplikacja") to niezależny, bezpłatny katalog parafii katolickich. Nie jest oficjalną aplikacją żadnej parafii, diecezji ani Kościoła katolickiego. Aplikacja nie wymaga konta ani logowania. Administratorem danych jest <strong>Michał Schmude</strong>, działający pod adresem <a href="https://mivs.dev">mivs.dev</a>, e-mail: <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a> (dalej: „Administrator").</p>
 
-    <h2>2. Rodzaj i źródło przetwarzanych danych</h2>
-    <p>Aplikacja przetwarza dane w następujących zakresach:</p>
+    <h2>2. Jakie dane zbieramy</h2>
     <ul>
-        <li><strong>Dane Parafii i Osób Duchownych:</strong> Nazwa parafii, adres, e-mail kancelarii, numer telefonu oraz imię i nazwisko proboszcza. Są to dane publicznie dostępne (strony diecezjalne, tablice ogłoszeń).</li>
-        <li><strong>Lokalizacja (GPS):</strong> Aplikacja uzyskuje dostęp do lokalizacji urządzenia w celu wyświetlenia pozycji użytkownika na mapie oraz nawigacji do parafii. Dane te są przetwarzane „na żywo” i <span class="highlight">nie są zapisywane</span> na serwerach Administratora.</li>
-        <li><strong>Dane Użytkowników:</strong> Adres e-mail (wyłącznie przy korzystaniu z funkcji „Zaproponuj zmianę”) oraz anonimowe identyfikatory reklamowe.</li>
-        <li><strong>Płatności i Subskrypcje:</strong> Informacje o zakupach Premium są przetwarzane przez Google Play Billing. Administrator nie ma dostępu do danych kart płatniczych.</li>
-        <li><strong>Panel Księdza:</strong> Tokeny dostępu oraz kody PIN służące wyłącznie do autoryzacji edycji ogłoszeń.</li>
+        <li><strong>Identyfikator instalacji.</strong> Identyfikator generowany przez urządzenie (<code>identifierForVendor</code> na iOS, <code>ANDROID_ID</code> na Androidzie) jest wysyłany na nasz serwer (<code>api-parafia.mivs.dev</code>), abyśmy mogli powiązać token powiadomień push oraz zapamiętać Twoją „parafię domową" i parafie ulubione. Nie jest powiązany z imieniem ani kontem.</li>
+        <li><strong>Token powiadomień push</strong> (Firebase Cloud Messaging) — do wysyłania powiadomień o przypomnieniach o Mszach i aktualnościach.</li>
+        <li><strong>Analityka użycia</strong> (Firebase Analytics): które ekrany i funkcje są otwierane, wersja aplikacji, model urządzenia, wersja systemu oraz przybliżony region ustalony na podstawie adresu IP. Są to zbiorcze dane produktowe. <span class="highlight">Nie</span> śledzimy Cię w innych aplikacjach ani witrynach, a aplikacja nie wyświetla reklam.</li>
+        <li><strong>Treści, które przesyłasz.</strong> Jeśli zaproponujesz dodanie lub poprawienie parafii, otrzymujemy wpisane przez Ciebie dane. Każde zgłoszenie jest przez nas weryfikowane przed pojawieniem się w aplikacji.</li>
+        <li><strong>Dane parafii i duchownych:</strong> nazwa parafii, adres, e-mail kancelarii, numer telefonu oraz imię i nazwisko proboszcza. Są to dane publicznie dostępne, pozyskane z oficjalnych stron diecezjalnych oraz tablic ogłoszeń parafialnych.</li>
     </ul>
 
-    <h2>3. Podstawa prawna i cel przetwarzania</h2>
-    <p>Przetwarzanie danych odbywa się na podstawie:</p>
+    <h2>3. Co pozostaje na urządzeniu</h2>
     <ul>
-        <li><strong>Art. 6 ust. 1 lit. f RODO (Prawnie uzasadniony interes):</strong> Realizacja funkcji informacyjnej aplikacji (dane parafii) oraz zapewnienie stabilności i bezpieczeństwa usług.</li>
-        <li><strong>Art. 6 ust. 1 lit. a RODO (Zgoda):</strong> W zakresie danych przesyłanych dobrowolnie (formularze zmian, logowanie księży).</li>
-        <li><strong>Dekret ogólny o ochronie danych osobowych osób fizycznych w Kościele:</strong> W zakresie publikacji jawnych informacji o funkcjach duchownych.</li>
+        <li><strong>Lokalizacja (GPS).</strong> Po udzieleniu zgody Twoja pozycja jest używana wyłącznie na urządzeniu, aby znaleźć najbliższą parafię i wyśrodkować mapę. Dane przetwarzane są „na żywo" i <span class="highlight">nigdy nie są wysyłane</span> na nasze serwery.</li>
+        <li><strong>Przypomnienia o Mszach</strong> są zapisywane tylko na Twoim urządzeniu.</li>
+        <li><strong>Ustawienia aplikacji</strong> (język, motyw, preferencja powiadomień).</li>
     </ul>
 
-    <h2>4. Bezpieczeństwo danych</h2>
-    <p>Stosujemy nowoczesne środki ochrony, w tym:</p>
+    <h2>4. Czego NIE zbieramy</h2>
+    <p>Imienia i nazwiska, adresu e-mail (chyba że sam napiszesz do naszego wsparcia), hasła, danych płatniczych, kontaktów, zdjęć, historii dokładnej lokalizacji ani identyfikatora reklamowego (IDFA / GAID). Aplikacja nie zawiera zakupów wewnątrz aplikacji, subskrypcji ani reklam.</p>
+
+    <h2>5. Podstawa prawna i cel przetwarzania</h2>
+    <ul>
+        <li><strong>Art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes):</strong> świadczenie usługi informacyjnej (dane parafii) oraz zapewnienie stabilności i bezpieczeństwa aplikacji.</li>
+        <li><strong>Art. 6 ust. 1 lit. a RODO (zgoda):</strong> w przypadku danych dobrowolnie przekazanych przez użytkowników (formularz zgłoszenia zmiany).</li>
+        <li><strong>Ogólny dekret o ochronie danych osobowych osób fizycznych w Kościele katolickim:</strong> w zakresie publikacji jawnych informacji o funkcjach duchownych.</li>
+    </ul>
+
+    <h2>6. Bezpieczeństwo danych</h2>
     <ul>
         <li>Szyfrowanie połączeń protokołem <span class="highlight">HTTPS</span> (SSL/TLS).</li>
-        <li>Dwuetapową autoryzację dla administratorów parafialnych (Token + PIN).</li>
-        <li>Zasady minimalizacji danych – zbieramy tylko to, co niezbędne do działania aplikacji.</li>
+        <li>Minimalizacja danych – zbieramy wyłącznie to, co jest niezbędne do działania aplikacji.</li>
     </ul>
 
-    <h2>5. Odbiorcy danych (Usługi podmiotów trzecich)</h2>
-    <p>W celu zapewnienia pełnej funkcjonalności, aplikacja integruje usługi:</p>
+    <h2>7. Odbiorcy danych (usługi zewnętrzne)</h2>
+    <p>Aby zapewnić funkcjonalność, aplikacja korzysta z następujących usług:</p>
     <ul>
-        <li><strong>Google Maps API:</strong> Wyświetlanie map i nawigacja.</li>
-        <li><strong>Google AdMob:</strong> Wyświetlanie reklam (w wersji darmowej).</li>
-        <li><strong>Google Play Billing:</strong> Obsługa bezpiecznych płatności za wersję Premium.</li>
-        <li><strong>Firebase:</strong> Analiza stabilności (Crashlytics) oraz powiadomienia Push.</li>
+        <li><strong>Google Maps</strong> (Android) / <strong>Apple Maps</strong> (iOS): wyświetlanie mapy i nawigacja.</li>
+        <li><strong>Firebase</strong> (Cloud Messaging, Analytics): powiadomienia push oraz zbiorcza analityka produktowa.</li>
     </ul>
+    <p>Nie sprzedajemy danych osobowych. Aplikacja nie korzysta z żadnych SDK reklamowych i nie przetwarza żadnych płatności.</p>
 
-    <h2>6. Prawa osób, których dane dotyczą</h2>
-    <p>Zgodnie z RODO, każdemu użytkownikowi przysługuje prawo do:</p>
+    <h2>8. Prawa osób, których dane dotyczą</h2>
+    <p>Zgodnie z RODO każdy użytkownik ma prawo do:</p>
     <ul>
-        <li>Wglądu, sprostowania oraz usunięcia danych („prawo do bycia zapomnianym”).</li>
-        <li>Wniesienia sprzeciwu wobec przetwarzania lokalizacji (poprzez ustawienia systemu Android).</li>
-        <li>Złożenia skargi do Prezesa Urzędu Ochrony Danych Osobowych (PUODO).</li>
+        <li>Dostępu do swoich danych, ich sprostowania oraz usunięcia („prawo do bycia zapomnianym").</li>
+        <li>Sprzeciwu wobec przetwarzania danych lokalizacyjnych (poprzez ustawienia systemowe urządzenia).</li>
+        <li>Wniesienia skargi do organu nadzorczego (Prezesa Urzędu Ochrony Danych Osobowych – PUODO).</li>
     </ul>
     <p>Kontakt w sprawach prywatności: <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a>.</p>
 
-    <h2>7. Funkcja „Zaproponuj zmianę”</h2>
-    <p>Dane przesyłane w formularzu propozycji zmian są wykorzystywane wyłącznie do weryfikacji rzetelności informacji. Przesłanie propozycji jest całkowicie dobrowolne.</p>
+    <h2>9. Funkcja „Zaproponuj zmianę"</h2>
+    <p>Dane podane w formularzu zgłoszenia zmiany służą wyłącznie do weryfikacji rzetelności informacji i są przez nas sprawdzane przed pojawieniem się w aplikacji. Przesyłanie zgłoszeń jest całkowicie dobrowolne.</p>
 
-    <h2>8. Okres przechowywania danych</h2>
+    <h2>10. Okres przechowywania danych</h2>
     <ul>
-        <li>Dane o lokalizacji: 0 sekund (przetwarzane tylko w pamięci RAM podczas działania mapy).</li>
-        <li>Adresy e-mail z formularzy: Do czasu weryfikacji zmiany (maksymalnie 12 miesięcy).</li>
-        <li>Dane parafii: Przez okres świadczenia usługi informacyjnej.</li>
+        <li><strong>Dane lokalizacyjne:</strong> nie są przechowywane (przetwarzane wyłącznie w pamięci urządzenia, gdy mapa jest aktywna).</li>
+        <li><strong>Adresy e-mail z formularzy:</strong> do czasu weryfikacji zgłoszenia (maksymalnie 12 miesięcy).</li>
+        <li><strong>Tokeny push i preferencje parafii:</strong> przez czas, gdy aplikacja jest zainstalowana, oraz przez krótki okres później.</li>
+        <li><strong>Dane parafii:</strong> przez czas świadczenia usługi informacyjnej.</li>
     </ul>
+    <p>Aby zażądać usunięcia danych powiązanych z Twoim urządzeniem, napisz na <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a>.</p>
 
-    <h2>9. Zmiany w polityce prywatności</h2>
-    <p>Administrator zastrzega sobie prawo do zmian w niniejszym dokumencie. Aktualna wersja jest zawsze dostępna pod adresem <a href="https://mivs.dev">mivs.dev</a> oraz wewnątrz aplikacji.</p>
+    <h2>11. Dzieci</h2>
+    <p>Aplikacja jest odpowiednia dla wszystkich grup wiekowych i nie zbiera świadomie danych osobowych od dzieci.</p>
 
-<h2 id="deletion">Usuwanie konta i danych</h2>
-<p>Użytkownicy posiadający dostęp do panelu parafialnego (Token/PIN) mają prawo do usunięcia swoich danych dostępowych oraz powiązanych informacji. Aby zgłosić żądanie usunięcia danych, prosimy o wysłanie wiadomości e-mail na adres: <strong>biuro.mojaparafia@gmail.com</strong> z tematem "Usunięcie danych - Moja Parafia". Dane zostaną usunięte w ciągu 48 godzin.</p>
-    
+    <h2>12. Zmiany Polityki Prywatności</h2>
+    <p>Administrator zastrzega sobie prawo do wprowadzania zmian w niniejszym dokumencie. Aktualna wersja jest zawsze dostępna pod adresem <a href="https://mivs.dev">mivs.dev</a> oraz w aplikacji.</p>
+
 </body>
 </html>
