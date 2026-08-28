@@ -55,66 +55,76 @@
 <body>
 
     <h1>Privacy Policy for the "Moja Parafia" Mobile Application</h1>
-    <p class="date">Last updated: February 7, 2026</p>
+    <p class="date">Last updated: August 27, 2026</p>
 
     <h2>1. General Provisions</h2>
-    <p>The Data Administrator is <strong>Michał Schmude</strong>, operating at <a href="https://mivs.dev">mivs.dev</a>, email: <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a> (hereinafter referred to as the "Administrator"). The Administrator makes every effort to protect the privacy of the "Moja Parafia" application users.</p>
+    <p><strong>Moja Parafia</strong> ("the app") is an independent, free directory of Catholic parishes. It is not an official app of any parish, diocese, or the Catholic Church. There is no user account and no login. The Data Administrator is <strong>Michał Schmude</strong>, operating at <a href="https://mivs.dev">mivs.dev</a>, email: <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a> (hereinafter referred to as the "Administrator").</p>
 
-    <h2>2. Type and Source of Processed Data</h2>
-    <p>The application processes data in the following categories:</p>
+    <h2>2. What We Collect</h2>
     <ul>
-        <li><strong>Parish and Clergy Data:</strong> Parish name, address, office email, phone number, and the parish priest's name. This is publicly available data obtained from official diocese websites of the Catholic Church and parish notice boards.</li>
-        <li><strong>Location (GPS):</strong> The application accesses the device's location to display the user's position on the map and provide navigation to the parish. This data is processed "live" and <span class="highlight">is not stored</span> on the Administrator's servers.</li>
-        <li><strong>User Data:</strong> Email address (only when using the "Suggest a change" feature) and anonymous advertising identifiers.</li>
-        <li><strong>Payments and Subscriptions:</strong> Information about Premium purchases is processed by Google Play Billing. The Administrator does not have access to payment card details.</li>
-        <li><strong>Priest/Admin Panel:</strong> Access tokens and PIN codes used exclusively for authorizing the editing of announcements.</li>
+        <li><strong>Per-install identifier.</strong> A device-generated identifier (<code>identifierForVendor</code> on iOS, <code>ANDROID_ID</code> on Android) is sent to our server (<code>api-parafia.mivs.dev</code>) so that we can attach your push-notification token and remember your "home parish" and favourite parishes. It is not linked to your name or any account.</li>
+        <li><strong>Push notification token</strong> (Firebase Cloud Messaging), used to send notifications about Mass reminders and parish news.</li>
+        <li><strong>Usage analytics</strong> (Firebase Analytics): which screens and features are opened, app version, device model, operating-system version, and an approximate region derived from your IP address. This is aggregate product analytics. We do <span class="highlight">not</span> track you across other apps or websites, and the app shows no advertising.</li>
+        <li><strong>Content you submit.</strong> If you propose adding or correcting a parish, we receive the data you type. These submissions are reviewed by us before they can appear in the app.</li>
+        <li><strong>Parish and clergy data:</strong> parish name, address, office email, phone number, and the parish priest's name. This is publicly available data obtained from official diocese websites of the Catholic Church and parish notice boards.</li>
     </ul>
 
-    <h2>3. Legal Basis and Purpose of Processing</h2>
-    <p>Data processing is based on:</p>
+    <h2>3. What Stays on Your Device</h2>
     <ul>
-        <li><strong>Art. 6(1)(f) GDPR (Legitimate Interest):</strong> Providing informational services (parish data) and ensuring application stability and security.</li>
-        <li><strong>Art. 6(1)(a) GDPR (Consent):</strong> For data voluntarily provided by users (change proposal forms, priest logins).</li>
-        <li><strong>General Decree on the Protection of Personal Data of Individuals in the Church:</strong> Regarding the publication of public information about clergy functions.</li>
+        <li><strong>Location (GPS).</strong> When you grant location permission, your position is used only on the device to find the nearest parish and to centre the map. It is processed "live" and <span class="highlight">is never sent</span> to our servers.</li>
+        <li><strong>Mass reminders</strong> you create are stored only on your device.</li>
+        <li><strong>App settings</strong> (language, theme, notification preference).</li>
     </ul>
 
-    <h2>4. Data Security</h2>
-    <p>We use modern protection measures, including:</p>
+    <h2>4. What We Do NOT Collect</h2>
+    <p>Name, e-mail address (unless you choose to e-mail our support address), password, payment or financial information, contacts, photos, precise stored location history, or the advertising identifier (IDFA / GAID). The app contains no in-app purchases, no subscriptions, and no advertising.</p>
+
+    <h2>5. Legal Basis and Purpose of Processing</h2>
+    <ul>
+        <li><strong>Art. 6(1)(f) GDPR (Legitimate Interest):</strong> providing the informational service (parish data) and ensuring application stability and security.</li>
+        <li><strong>Art. 6(1)(a) GDPR (Consent):</strong> for data voluntarily provided by users (change-proposal forms).</li>
+        <li><strong>General Decree on the Protection of Personal Data of Individuals in the Church:</strong> regarding the publication of public information about clergy functions.</li>
+    </ul>
+
+    <h2>6. Data Security</h2>
     <ul>
         <li>Encryption of connections using the <span class="highlight">HTTPS</span> (SSL/TLS) protocol.</li>
-        <li>Two-factor authentication for parish administrators (Token + PIN).</li>
-        <li>Data minimization principles – we only collect what is necessary for the application to function.</li>
+        <li>Data minimization – we only collect what is necessary for the application to function.</li>
     </ul>
 
-    <h2>5. Data Recipients (Third-Party Services)</h2>
-    <p>To provide full functionality, the application integrates the following services:</p>
+    <h2>7. Data Recipients (Third-Party Services)</h2>
+    <p>To provide its functionality, the app integrates the following services:</p>
     <ul>
-        <li><strong>Google Maps API:</strong> Map display and navigation.</li>
-        <li><strong>Google AdMob:</strong> Displaying advertisements (in the free version).</li>
-        <li><strong>Google Play Billing:</strong> Handling secure payments for the Premium version.</li>
-        <li><strong>Firebase:</strong> Stability analysis (Crashlytics) and Push notifications.</li>
+        <li><strong>Google Maps</strong> (Android) / <strong>Apple Maps</strong> (iOS): map display and navigation.</li>
+        <li><strong>Firebase</strong> (Cloud Messaging, Analytics): push notifications and aggregate product analytics.</li>
     </ul>
+    <p>We do not sell personal data. The app does not use advertising SDKs and does not process any payments.</p>
 
-    <h2>6. Rights of Data Subjects</h2>
+    <h2>8. Rights of Data Subjects</h2>
     <p>According to GDPR, every user has the right to:</p>
     <ul>
         <li>Access, rectify, and delete their data ("right to be forgotten").</li>
-        <li>Object to the processing of location data (via Android system settings).</li>
+        <li>Object to the processing of location data (via the device's system settings).</li>
         <li>File a complaint with the supervisory authority (President of the Personal Data Protection Office - PUODO).</li>
     </ul>
     <p>Contact for privacy matters: <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a>.</p>
 
-    <h2>7. "Suggest a Change" Feature</h2>
-    <p>Data provided in the change proposal form is used solely to verify the reliability of the information. Providing proposals is completely voluntary.</p>
+    <h2>9. "Suggest a Change" Feature</h2>
+    <p>Data provided in the change-proposal form is used solely to verify the reliability of the information and is reviewed by us before it can appear in the app. Providing proposals is completely voluntary.</p>
 
-    <h2>8. Data Retention Period</h2>
+    <h2>10. Data Retention Period</h2>
     <ul>
-        <li>Location data: 0 seconds (processed only in RAM while the map is active).</li>
-        <li>Email addresses from forms: Until the change is verified (maximum 12 months).</li>
-        <li>Parish data: For the duration of the informational service.</li>
+        <li><strong>Location data:</strong> not retained (processed only in memory while the map is active).</li>
+        <li><strong>E-mail addresses from forms:</strong> until the change is verified (maximum 12 months).</li>
+        <li><strong>Push tokens and parish preferences:</strong> kept while the app is installed and for a short period afterwards.</li>
+        <li><strong>Parish data:</strong> for the duration of the informational service.</li>
     </ul>
+    <p>To request deletion of data associated with your device, e-mail <a href="mailto:biuro.mojaparafia@gmail.com">biuro.mojaparafia@gmail.com</a>.</p>
 
-    <h2>9. Changes to the Privacy Policy</h2>
+    <h2>11. Children</h2>
+    <p>The app is suitable for all ages and does not knowingly collect personal information from children.</p>
+
+    <h2>12. Changes to the Privacy Policy</h2>
     <p>The Administrator reserves the right to make changes to this document. The current version is always available at <a href="https://mivs.dev">mivs.dev</a> and within the application.</p>
 
 </body>
